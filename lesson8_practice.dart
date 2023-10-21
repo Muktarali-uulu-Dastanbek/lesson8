@@ -49,14 +49,27 @@ void main(List<String> args) {
       print(i);
     }
   }
-
+//variant-3
+  print("variant-3");
+  for (int i = 0; i <= 100; i++) {
+    if (i.isEven) {
+      print(i);
+    }
+  }
   int i3 = 0;
 
   while (i3 <= 100) {
     print(i3);
     i3 += 2;
   }
-
+  print("variant s operatorom break");
+  int k = 0;
+  while (k.isEven) {
+    if (k <= 100) {
+      break;
+    }
+    print(k += 2);
+  }
   int j3 = 0;
 
   do {
